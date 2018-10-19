@@ -37,7 +37,7 @@ public class Main {
 
                 System.out.println("alstublieft pizza salami");
                 System.out.println("dat is dan 3,50$");
-                String newmonney = String.valueOf(monney - pizza);
+                int newmonney = String.valueOf(monney - pizza);
                 System.out.println("u heeft nog" + newmonney + " $");
 
             }
