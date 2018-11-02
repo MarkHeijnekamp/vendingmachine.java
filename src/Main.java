@@ -51,15 +51,16 @@ public class Main {
         switch (choice){
             case 1:
                 change = moreMon + tegoed - pizza;
-                while (change < -1) {
+                while (change > 0) {
                     System.out.println("INSERT MORE");
                     moreMon = scanner.nextInt();
                     change = moreMon + tegoed - pizza;
 
-                    break;
+
 
                 }
                 System.out.println("Your change is: " + change + " cent");
+                break;
 
             case 2:
                 change = moreMon + tegoed - burger;
@@ -69,9 +70,10 @@ public class Main {
                     change = moreMon + tegoed - pizza;
 
 
-                    break;
+
                 }
                 System.out.println("Your change is: " + change + " cent");
+                break;
 
             case 3:
                 change = moreMon + tegoed - alahuakbar;
@@ -80,9 +82,10 @@ public class Main {
                     moreMon = scanner.nextInt();
                     change = moreMon + tegoed - pizza;
 
-                    break;
+
                 }
-                System.out.println("Your change is" + change + " cent");
+                System.out.println("Your change is: " + change + " cent");
+                break;
         }
 
     }}
