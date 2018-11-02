@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 //        String pizza = String.valueOf(3.50);
 //        String monney = String.valueOf(10);
-
+        boolean active = true;
         int pizza = 350;
         int burger = 400;
         int alahuakbar = 100000;
@@ -21,12 +21,13 @@ public class Main {
 //        System.out.println("u heeft " + monney + " $");
 //        System.out.println("antwoord met 1 voor ja");
 //        System.out.println("antwoord met 2 voor nee");
-
+while (active){
         System.out.println("minimale input is 350 $");
         ArrayList<String> eten = new ArrayList<String>();
         eten.add("Pizza");
         eten.add("Burger");
         eten.add("alahuakbar");
+        eten.add("exit");
         System.out.println(eten);
 
         choice = scanner.nextInt();
@@ -40,16 +41,15 @@ public class Main {
             break;
             case 3: eten.get(2);
                 System.out.println("That will be "+ alahuakbar+" $");
+            case 4: eten.get(3);
+                System.out.println("shutting down");
         }
-        System.out.println("Please insert money");
-        tegoed = scanner.nextInt();
 
 
-        if (tegoed < 1){
-            System.out.println("Please insert more coins");
-            moreMMon = scanner.nextInt();
 
-        }
+
+
+
 
         totalInput = moreMMon + moreMon + tegoed;
          change = moreMMon + moreMon + tegoed;
@@ -58,6 +58,13 @@ public class Main {
 
         switch (choice){
             case 1:
+                System.out.println("Please insert money");
+                tegoed = scanner.nextInt();
+                if (tegoed < 1){
+                    System.out.println("Please insert more coins");
+                    moreMMon = scanner.nextInt();
+
+                }
                 change = change - pizza;
                 if (totalInput == pizza){
                     break;
@@ -92,9 +99,17 @@ public class Main {
 
 
             case 2:
+                System.out.println("Please insert money");
+                tegoed = scanner.nextInt();
+                if (tegoed < 1){
+                    System.out.println("Please insert more coins");
+                    moreMMon = scanner.nextInt();
+
+                }
                 change = change - burger;
 
-                if (totalInput == burger){
+                if (totalInput == burger || totalInput > burger){
+                    System.out.println("Your change is: " + change + " $");
                     break;
                 }
 
@@ -122,6 +137,13 @@ public class Main {
                 } break;
 
             case 3:
+                System.out.println("Please insert money");
+                tegoed = scanner.nextInt();
+                if (tegoed < 1){
+                    System.out.println("Please insert more coins");
+                    moreMMon = scanner.nextInt();
+
+                }
                 change = change - alahuakbar;
                 if (totalInput == alahuakbar){
                     break;
@@ -149,9 +171,11 @@ public class Main {
                 }
                 break;
 
+            case 4:
+                active = false;
         }
 
-    }}
+    }}}
 //
 //        System.out.println("wil je wat eten ?");
 //        System.out.println();
