@@ -8,7 +8,7 @@ public class Main {
 //        String pizza = String.valueOf(3.50);
 //        String monney = String.valueOf(10);
         boolean active = true;
-        int pizza = 350;
+        int pizza = 22;
         int burger = 400;
         int alahuakbar = 100000;
         int monney = 10;
@@ -252,3 +252,4 @@ while (active){
 //
 //
 //
+// © 2018 Mark Heijnekamp
