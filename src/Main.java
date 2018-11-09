@@ -169,175 +169,108 @@ while(totalInput != pizza) {
 
             break;
 
+case 2:
+        System.out.println("Please insert money");
+        tegoed = scanner.nextInt();
+    monney = monney - tegoed;
 
 
+    if (tegoed < 1){
+            System.out.println("Please insert more coins");
+            moreMMon = scanner.nextInt();
+            monney = monney - moreMMon;
+
+        }
+
+        totalInput = moreMMon + moreMon + tegoed;
+        change = totalInput;
+
+        System.out.println("you have total "+ totalInput + " inputted");
+
+        change = change - burger;
+//                if (totalInput == pizza){
+//                    break;
+//                }
+
+//                while (change < pizza) {
+//                    if (change > 0) {
+//                        System.out.println("Your change is: " + change + " $");
+//                        break;
+//                    }
+        if (totalInput == burger || totalInput > burger){
+            System.out.println("Your change is: " + change + " $");
+            System.out.println("                _....----\"\"\"----...._\n" +
+                    "             .-'  o    o    o    o   '-.\n" +
+                    "            /  o    o    o         o    \\\n" +
+                    "           /     o      o   o     o    o \\\n" +
+                    "         _|   o   o    o      o  o     o  |_\n" +
+                    "        / `''-----.................-----''` \\\n" +
+                    "        \\___________________________________/\n" +
+                    "          \\~`-`.__.`-~`._.~`-`~.-~.__.~`-`/\n" +
+                    "           \\                             /\n" +
+                    "            `-._______________________.-'\n" +
+                    " ");
+            break;
+        }
+
+        case 3:
+
+            System.out.println("Please insert money");
+            tegoed = scanner.nextInt();
+            monney = monney - tegoed;
+
+            if (tegoed < 1){
+                System.out.println("Please insert more coins");
+                moreMMon = scanner.nextInt();
+                monney = monney - moreMMon;
+            }
+
+            totalInput = moreMMon + moreMon + tegoed;
+            change = totalInput;
+
+            System.out.println("you have total "+ totalInput + " inputted");
+
+            change = change - apple;
+//                if (totalInput == pizza){
+//                    break;
+//                }
+
+//                while (change < pizza) {
+//                    if (change > 0) {
+//                        System.out.println("Your change is: " + change + " $");
+//                        break;
+//                    }
+            if (totalInput == apple || totalInput > apple){
+                System.out.println("Your change is: " + change + " $");
+                System.out.println("                        .8 \\n\" +\n" +
+                        "                    \"                      .888\\n\" +\n" +
+                        "                    \"                    .8888'\\n\" +\n" +
+                        "                    \"                   .8888'\\n\" +\n" +
+                        "                    \"                   888'\\n\" +\n" +
+                        "                    \"                   8'\\n\" +\n" +
+                        "                    \"      .88888888888. .88888888888.\\n\" +\n" +
+                        "                    \"   .8888888888888888888888888888888.\\n\" +\n" +
+                        "                    \" .8888888888888888888888888888888888.\\n\" +\n" +
+                        "                    \".&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'\\n\" +\n" +
+                        "                    \"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'\\n\" +\n" +
+                        "                    \"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'\\n\" +\n" +
+                        "                    \"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:\\n\" +\n" +
+                        "                    \"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:\\n\" +\n" +
+                        "                    \"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:\\n\" +\n" +
+                        "                    \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.\\n\" +\n" +
+                        "                    \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.\\n\" +\n" +
+                        "                    \"`%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.\\n\" +\n" +
+                        "                    \" `00000000000000000000000000000000000'\\n\" +\n" +
+                        "                    \"  `000000000000000000000000000000000'\\n\" +\n" +
+                        "                    \"   `0000000000000000000000000000000'\\n\" +\n" +
+                        "                    \"     `###########################'\\n\" +\n" +
+                        "                    \"       `#######################'\\n\" +\n" +
+                        "                    \"         `#########''########'\\n\" +\n" +
+                        "                    \"           `\\\"\\\"\\\"\\\"\\\"\\\"'  `\\\"\\\"\\\"\\\"\\\"'\")");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//case 2:
-//        System.out.println("Please insert money");
-//        tegoed = scanner.nextInt();
-//    monney = monney - tegoed;
-//
-//
-//    if (tegoed < 1){
-//            System.out.println("Please insert more coins");
-//            moreMMon = scanner.nextInt();
-//            monney = monney - moreMMon;
-//
-//        }
-//
-//        totalInput = moreMMon + moreMon + tegoed;
-//        change = totalInput;
-//
-//        System.out.println("you have total "+ totalInput + " inputted");
-//
-//        change = change - burger;
-////                if (totalInput == pizza){
-////                    break;
-////                }
-//
-////                while (change < pizza) {
-////                    if (change > 0) {
-////                        System.out.println("Your change is: " + change + " $");
-////                        break;
-////                    }
-//        if (totalInput == burger || totalInput > burger){
-//            System.out.println("Your change is: " + change + " $");
-//            System.out.println("                _....----\"\"\"----...._\n" +
-//                    "             .-'  o    o    o    o   '-.\n" +
-//                    "            /  o    o    o         o    \\\n" +
-//                    "           /     o      o   o     o    o \\\n" +
-//                    "         _|   o   o    o      o  o     o  |_\n" +
-//                    "        / `''-----.................-----''` \\\n" +
-//                    "        \\___________________________________/\n" +
-//                    "          \\~`-`.__.`-~`._.~`-`~.-~.__.~`-`/\n" +
-//                    "       jgs \\                             /\n" +
-//                    "            `-._______________________.-'\n" +
-//                    " ");
-//            break;
-//        }
-//
-//
-////                    if (totalInput == pizza){
-////                        break;
-////                    }
-//while(totalInput < burger || totalInput == burger) {
-//    System.out.println(burger - totalInput + " left");
-//    System.out.println("INSERT MORE");
-//    moreMon = scanner.nextInt();
-//    totalInput = totalInput + moreMon;
-//    monney = monney - moreMon;
-//    System.out.println("you have total " + totalInput + " inputted");
-//}
-//            System.out.println("    _....----\"\"\"----...._\n" +
-//                    "             .-'  o    o    o    o   '-.\n" +
-//                    "            /  o    o    o         o    \\\n" +
-//                    "           /     o      o   o     o    o \\\n" +
-//                    "         _|   o   o    o      o  o     o  |_\n" +
-//                    "        / `''-----.................-----''` \\\n" +
-//                    "        \\___________________________________/\n" +
-//                    "          \\~`-`.__.`-~`._.~`-`~.-~.__.~`-`/\n" +
-//                    "       jgs \\                             /\n" +
-//                    "            `-._______________________.-'\n" +
-//                    " ");
-//
-//        if (change > 0) {
-//            System.out.println("Your change is: " + change + " $");
-//        }
-//        if (change < 0 || change == 0){
-//            System.out.println("You get no change");
-//        }
-//
-//
-//        break;
-//
-//
-//        case 3:
-//
-//            System.out.println("Please insert money");
-//            tegoed = scanner.nextInt();
-//            monney = monney - tegoed;
-//
-//            if (tegoed < 1){
-//                System.out.println("Please insert more coins");
-//                moreMMon = scanner.nextInt();
-//                monney = monney - moreMMon;
-//            }
-//
-//            totalInput = moreMMon + moreMon + tegoed;
-//            change = totalInput;
-//
-//            System.out.println("you have total "+ totalInput + " inputted");
-//
-//            change = change - apple;
-////                if (totalInput == pizza){
-////                    break;
-////                }
-//
-////                while (change < pizza) {
-////                    if (change > 0) {
-////                        System.out.println("Your change is: " + change + " $");
-////                        break;
-////                    }
-//            if (totalInput == apple || totalInput > apple){
-//                System.out.println("Your change is: " + change + " $");
-//                System.out.println("                        .8 \\n\" +\n" +
-//                        "                    \"                      .888\\n\" +\n" +
-//                        "                    \"                    .8888'\\n\" +\n" +
-//                        "                    \"                   .8888'\\n\" +\n" +
-//                        "                    \"                   888'\\n\" +\n" +
-//                        "                    \"                   8'\\n\" +\n" +
-//                        "                    \"      .88888888888. .88888888888.\\n\" +\n" +
-//                        "                    \"   .8888888888888888888888888888888.\\n\" +\n" +
-//                        "                    \" .8888888888888888888888888888888888.\\n\" +\n" +
-//                        "                    \".&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'\\n\" +\n" +
-//                        "                    \"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'\\n\" +\n" +
-//                        "                    \"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'\\n\" +\n" +
-//                        "                    \"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:\\n\" +\n" +
-//                        "                    \"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:\\n\" +\n" +
-//                        "                    \"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:\\n\" +\n" +
-//                        "                    \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.\\n\" +\n" +
-//                        "                    \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.\\n\" +\n" +
-//                        "                    \"`%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.\\n\" +\n" +
-//                        "                    \" `00000000000000000000000000000000000'\\n\" +\n" +
-//                        "                    \"  `000000000000000000000000000000000'\\n\" +\n" +
-//                        "                    \"   `0000000000000000000000000000000'\\n\" +\n" +
-//                        "                    \"     `###########################'\\n\" +\n" +
-//                        "                    \"       `#######################'\\n\" +\n" +
-//                        "                    \"         `#########''########'\\n\" +\n" +
-//                        "                    \"           `\\\"\\\"\\\"\\\"\\\"\\\"'  `\\\"\\\"\\\"\\\"\\\"'\")");
-//
-//
-//                break;
-//            }
+                break;
+            }
 //
 //
 ////                    if (totalInput == pizza){
